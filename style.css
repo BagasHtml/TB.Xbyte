@@ -1,0 +1,57 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background: linear-gradient(145deg, #1f1f1f, #2c2c2c);
+}
+
+#anggota img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 3px solid #00bcd4;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 255, 255, 0.1);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #0a0a0a;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spinner-border {
+  width: 4rem;
+  height: 4rem;
+  border-width: .25em;
+}
